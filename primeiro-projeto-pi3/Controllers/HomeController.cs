@@ -25,6 +25,8 @@ namespace primeiro_projeto_pi3.Controllers
         public IActionResult Contact()
         {
             ViewData["Message"] = "Your contact page.";
+            ViewData["Phone"] = "5189787485";
+            ViewData["Email"] = "rrdoliveira@senacrs.com.br";
 
             return View();
         }
